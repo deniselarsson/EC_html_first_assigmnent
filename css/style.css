@@ -1,5 +1,6 @@
 body{
     background-color:#F8F8FF;
+    font-family: Arial, Helvetica, sans-serif;
     }
    .centered{
    text-align: center;
@@ -10,7 +11,7 @@ body{
    }
    .text-block{
     position: absolute;
-    top:50%;
+    top:60%;
     left:50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
@@ -40,9 +41,7 @@ body{
    .logo{
    margin-left: 100px;
    }
-   .block-content{
-    text-align: center; 
-   }
+
    .navigation a:link {
     text-decoration: none;
 }
@@ -67,4 +66,28 @@ body{
     text-align: end;
     font-weight: bolder;
     font-size: large;
+}
+  .service_header{
+    text-align: center;
+    margin-bottom: 200px;
+  }
+
+
+
+
+.column {
+    width: 600px;
+    margin: auto;
+
+    
+}
+
+.column div {
+    display: flex;
+    
+}
+
+.column div h2 {
+    margin: auto 24px;
+    white-space: nowrap;
 }
